@@ -4,7 +4,7 @@ export default function DoubleDice() {
 
   return (
     <>
-      {num1 === num2 ? <h3>You Win</h3> : null}
+      {num1 === num2 ? <h3>You Win</h3> : <h3>You Suck!!!</h3>}
       <h2>Die 1 value : {num1}</h2>
       <h2>Die 2 value : {num2}</h2>
     </>

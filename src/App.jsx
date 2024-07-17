@@ -4,6 +4,9 @@ import Greeter from "./Greeter";
 import Die from "./Die";
 import ListPicker from "./ListPicker";
 import DoubleDice from "./DoubleDice";
+import DynamicStyles from "./DynamicStyles";
+import ColorList from "./ColorList";
+import SlotMachine from "./SlotMachine";
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
       <DoubleDice />
       <DoubleDice />
       <DoubleDice />
+      <DynamicStyles />
+      <ColorList colors={["red", "blue", "green"]} />
+      <SlotMachine val1="G" val2="G" val3="G" />
     </>
   );
 }
