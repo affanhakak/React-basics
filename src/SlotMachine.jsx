@@ -14,3 +14,5 @@ export default function SlotMachine({ val1, val2, val3 }) {
     </>
   );
 }
+
+// slot machine dynamic styling and conditional viewing
