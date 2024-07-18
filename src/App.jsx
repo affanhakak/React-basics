@@ -9,6 +9,7 @@ import ColorList from "./ColorList";
 import SlotMachine from "./SlotMachine";
 import ShoppingList from "./ShoppingList";
 import Property from "./Property";
+import Clicker from "./Clicker";
 
 const data = [
   { id: 1, name: "eggs", quantity: 12, completed: false },
@@ -46,6 +47,7 @@ function App() {
       <SlotMachine val1="G" val2="G" val3="G" />
       <ShoppingList items={data} />
       <Property properties={properties} />
+      <Clicker />
     </>
   );
 }
