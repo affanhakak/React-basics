@@ -11,6 +11,7 @@ import ShoppingList from "./ShoppingList";
 import Property from "./Property";
 import Clicker from "./Clicker";
 import Counter from "./Counter";
+import Toggler from "./Toggler";
 
 const data = [
   { id: 1, name: "eggs", quantity: 12, completed: false },
@@ -50,6 +51,7 @@ function App() {
       <Property properties={properties} />
       <Clicker />
       <Counter />
+      <Toggler />
     </>
   );
 }
