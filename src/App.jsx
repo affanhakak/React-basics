@@ -12,6 +12,7 @@ import Property from "./Property";
 import Clicker from "./Clicker";
 import Counter from "./Counter";
 import Toggler from "./Toggler";
+import ColorBox from "./ColorBox";
 
 const data = [
   { id: 1, name: "eggs", quantity: 12, completed: false },
@@ -27,6 +28,19 @@ const properties = [
   { id: 4, place: "Redwood Treehouse Escape", price: 120, rating: 4.9 },
   { id: 5, place: "Oceanview Condo", price: 140, rating: 4.7 },
   { id: 6, place: "Gold Miner Campground", price: 96, rating: 4.69 },
+];
+
+const colors = [
+  "#FF5733", // Red-Orange
+  "#33FF57", // Lime Green
+  "#3357FF", // Bright Blue
+  "#FF33A8", // Pink
+  "#33FFF6", // Aqua
+  "#F3FF33", // Yellow
+  "#8E33FF", // Purple
+  "#FF8C33", // Orange
+  "#33FF8C", // Mint Green
+  "#333FFF", // Dark Blue
 ];
 
 function App() {
@@ -52,6 +66,7 @@ function App() {
       <Clicker />
       <Counter />
       <Toggler />
+      <ColorBox colors={colors} />
     </>
   );
 }
